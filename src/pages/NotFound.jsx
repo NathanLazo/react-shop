@@ -27,7 +27,7 @@ const NotFound = () => {
 			  <p className="message__text">We're sorry, the page you were looking for isn't found here. The link you followed may either be broken or no longer exists.</p>
 			</div>
 			<div className="error__nav e-nav">
-			  <a href='/' className="e-nav__link"></a>
+			  <a href='/react-shop/home/' className="e-nav__link"></a>
 			</div>
 		  </div>
 		</section>

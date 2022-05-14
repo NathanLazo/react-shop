@@ -1,13 +1,12 @@
 {
   "name": "react-shop",
+  "homepage": "https://NathanLazo.github.io/react-shop",
   "version": "1.0.0",
   "description": "React shop",
   "main": "src/index.js",
-  "homepage": "https://nathanlazo.github.io/react-shop/",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages  -d build",
     "start": "webpack serve --open --mode development",
     "build": "webpack --mode production"
   },

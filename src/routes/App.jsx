@@ -20,18 +20,18 @@ const App = () => {
 	const initialState = useInitialState();
 	return (
 		<AppContext.Provider value={initialState}>
-			<BrowserRouter>
+			<BrowserRouter basename='/react-shop'>
 				<Layout>
 					<Routes>
-						<Route exact path="/" element={<Home />} />
-						<Route exact path="/login" element={<Login />} />
-						<Route exact path="/password-recovery" element={<PasswordRecovery />} />
-						<Route exact path="/send-email" element={<SendEmail />} />
-						<Route exact path="/new-password" element={<NewPassword />} />
-						<Route exact path="/account" element={<MyAccount />} />
-						<Route exact path="/signup" element={<CreateAccount />} />
-						<Route exact path="/checkout" element={<Checkout />} />
-						<Route exact path="/orders" element={<Orders />} />
+						<Route exact path="/react-shop/home" element={<Home />} />
+						<Route exact path="/react-shop/react-shop/login" element={<Login />} />
+						<Route exact path="/react-shop/password-recovery" element={<PasswordRecovery />} />
+						<Route exact path="/react-shop/send-email" element={<SendEmail />} />
+						<Route exact path="/react-shop/new-password" element={<NewPassword />} />
+						<Route exact path="/react-shop/account" element={<MyAccount />} />
+						<Route exact path="/react-shop/signup" element={<CreateAccount />} />
+						<Route exact path="/react-shop/checkout" element={<Checkout />} />
+						<Route exact path="/react-shop/orders" element={<Orders />} />
 						<Route path="*" element={<NotFound />} />
 					</Routes>
 				</Layout>

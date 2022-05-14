@@ -13,6 +13,8 @@ const Header = () => {
 
 	const { state } = useContext(AppContext);
 
+	const holaMundo = 'Welcome';
+
 	return (
 		<>
 			<nav>
@@ -21,22 +23,22 @@ const Header = () => {
 					<img src={logo} alt="logo" className="nav-logo" />
 					<ul>
 						<li>
-							<a href="/">All</a>
+							<a href="/react-shop/home">All</a>
 						</li>
 						<li>
-							<a href="/">Clothes</a>
+							<a href="/react-shop/home">Clothes</a>
 						</li>
 						<li>
-							<a href="/">Electronics</a>
+							<a href="/react-shop/home">Electronics</a>
 						</li>
 						<li>
-							<a href="/">Furnitures</a>
+							<a href="/react-shop/home">Furnitures</a>
 						</li>
 						<li>
-							<a href="/">Toys</a>
+							<a href="/react-shop/home">Toys</a>
 						</li>
 						<li>
-							<a href="/">Others</a>
+							<a href="/react-shop/home">Others</a>
 						</li>
 					</ul>
 				</div>
