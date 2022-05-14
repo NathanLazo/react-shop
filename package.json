@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "React shop",
   "main": "src/index.js",
+  "homepage": "https://nathanlazo.github.io/react-shop/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d dist",
     "start": "webpack serve --open --mode development",
     "build": "webpack --mode production"
   },
@@ -34,6 +37,7 @@
   },
   "devDependencies": {
     "css-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
     "mini-css-extract-plugin": "^2.2.0",
     "sass": "^1.38.0",
     "sass-loader": "^12.1.0",
