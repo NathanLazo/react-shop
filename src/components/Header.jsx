@@ -13,8 +13,6 @@ const Header = () => {
 
 	const { state } = useContext(AppContext);
 
-	const holaMundo = 'Welcome';
-
 	return (
 		<>
 			<nav>
@@ -32,7 +30,7 @@ const Header = () => {
 							<a href="/react-shop/home">Electronics</a>
 						</li>
 						<li>
-							<a href="/react-shop/home">Furnitures</a>
+							<a href="/react-shop/home">Furniture</a>
 						</li>
 						<li>
 							<a href="/react-shop/home">Toys</a>
