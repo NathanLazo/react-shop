@@ -14,6 +14,10 @@ First
 ```bash
 git clone https://github.com/NathanLazo/react-shop.git
 ```
+CD into folder
+```bash
+cd react-shop
+```
 Then
 ```bash
 npm install
